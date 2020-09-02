@@ -66,4 +66,7 @@
   <ItemGroup>
     <Media Include="Music.mp3" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="SaveFile.txt" />
+  </ItemGroup>
 </Project>

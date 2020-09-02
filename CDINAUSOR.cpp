@@ -7,7 +7,7 @@ void CDINAUSOR::Draw(int x, int y) {
 	mX += 3 * Way; x = mX;
 	if (x > ENDLANE + STARTLANE - 1 || x <= STARTLANE) return;
 	GotoXY(x, y + 1);
-	cout << char(223); //upper
+	cout << char(223); 
 
 	cout << char(219);
 	GotoXY(x - 1, y + 1);

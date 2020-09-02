@@ -1,12 +1,6 @@
-trongdat99.txt
-2
-trongdat99.rxtxt
-4
-trongdat99.txt
-5
-trongdat99.txt
-6
-trongdat99.txt
+trongdat
 8
-trondagdadut
+ttemp
 9
+temop
+10

@@ -1,0 +1,40 @@
+﻿  CGAME.cpp
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\Header.h(19,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\Header.h(20,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(18,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(46,9): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(46,76): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(47,12): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(50,9): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(51,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(51,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(52,16): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(52,9): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(53,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(54,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(55,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(57,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(58,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(59,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(60,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(64,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(72,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(72,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(111,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(121,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(141,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(144,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(153,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(328,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(328,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(329,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(329,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(330,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(330,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(331,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(331,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(334,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(334,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(342,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\CGAME.cpp(366,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Group08.vcxproj -> G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\KTLT_Project_CrossingRoad\x64\Debug\Group08.exe

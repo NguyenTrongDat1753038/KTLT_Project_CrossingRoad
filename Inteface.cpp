@@ -1,5 +1,5 @@
 #include "Header.h"
-
+#include "colormod.h"
 void FixConsoleWindow() {
 	HWND consoleWindow = GetConsoleWindow();
 	LONG style = GetWindowLong(consoleWindow, GWL_STYLE);
@@ -30,10 +30,8 @@ void SetColor(int ForgC)
 	HANDLE hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
 	CONSOLE_SCREEN_BUFFER_INFO csbi;
 
-	//We use csbi for the wAttributes word.
 	if (GetConsoleScreenBufferInfo(hStdOut, &csbi))
 	{
-		//Mask out all but the background attribute, and add in the forgournd     color
 		wColor = (csbi.wAttributes & 0xF0) + (ForgC & 0x0F);
 		SetConsoleTextAttribute(hStdOut, wColor);
 	}
@@ -65,11 +63,11 @@ void LoadingBar() {
 		cout << "[";
 		int pos = barWidth * progress;
 		for (int i = 0; i < barWidth; ++i) {
-			if (i < pos) cout << "=";
-			else if (i == pos) cout << ">";
-			else cout << " ";
+			if (i < pos) cout << FRED("=");
+			else if (i == pos) cout << FYEL(">");
+			else cout << FGRN(" ");
 		}
-		cout << "] " << 100 << " %\r";
+		cout << FCYN("] ") << 100 << " %\r";
 		cout.flush();
 		progress += 0.16;
 	}

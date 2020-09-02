@@ -80,7 +80,8 @@ int main() {
 
 				int level; string name;
 				GotoXY(17, 15);
-				if (fin.peek() == ifstream::traits_type::eof()) cout << "There is no save file!!";
+				if (fin.peek() == ifstream::traits_type::eof()) 
+					cout << "There is no save file!!";
 				else {
 					cout << "Here are saved files: ";
 					int line = 17;
@@ -157,7 +158,6 @@ int main() {
 
 			GotoXY(50, 15); cout << FGRN("1. Sound");
 			GotoXY(50, 16); cout << FYEL("2. Tutorial");
-			//GotoXY(50, 17); cout << FCYN("3. Choose character.");
 			char  key = _getch();
 			if (key == '1')
 			{
@@ -181,20 +181,6 @@ int main() {
 				GotoXY(17, 18); cout << "There are 10 rounds for the game. Pass all of them to get a trophy.";
 				_getch();
 			}
-			/*else if (key == '3') {
-				ifstream fin;
-				fin.open("character.txt");
-				int num; fin >> num;
-				while (num--) {
-					int index; fin >> index;
-					string tmp[3];
-					for (int i = 0; i < 3; i++) {
-						cin >> tmp[i];
-					}
-				}
-				fin.close();
-				t = _getch();
-			}*/
 		}
 		else if (t == '4') {
 

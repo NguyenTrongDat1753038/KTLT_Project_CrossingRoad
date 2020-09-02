@@ -18,7 +18,7 @@ const float WIDTH = 80;
 const int STARTLANE = 3;
 const int ENDLANE = WIDTH - 6;
 const int intWIDTH = 118 - WIDTH;
-const int STOPTIME = 41;
+const int STOPTIME = 10;
 
 
 void clrscr();
@@ -108,10 +108,8 @@ struct Level {
 
 
 struct FileSave {
-private:
 	string name;
 	int level;
-public:
 	FileSave(int, string);
 	int getLevel();
 	string getName();

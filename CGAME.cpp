@@ -1,5 +1,5 @@
 ﻿#include "Header.h"
-
+#include "colormod.h"
 CGAME::CGAME() {
 
 	//set level
@@ -50,14 +50,14 @@ void CGAME::drawGame() {
 	GotoXY(WIDTH, 0); for (int i = 0; i < intWIDTH; i++) cout << "#";
 	GotoXY(WIDTH + intWIDTH, 0); for (int i = 1; i <= HEIGHT; i++) { cout << "#"; GotoXY(WIDTH + intWIDTH, i); }
 	GotoXY(WIDTH, HEIGHT); for (int i = 0; i < intWIDTH + 1; i++) cout << "#";
-	GotoXY(WIDTH + 8, 2); cout << "CROSSING ROAD THE GAME!!!";
-	GotoXY(WIDTH + 16, 4); cout << "LEVEL " << presentLevel;
-	GotoXY(WIDTH + 6, 6); cout << "Please Pause before";
-	GotoXY(WIDTH + 8, 8); cout << "	load/save game";
-	GotoXY(WIDTH + 8, 10); cout << "P: Pause/Resume";
-	GotoXY(WIDTH + 8, 12); cout << "K: Save";
-	GotoXY(WIDTH + 8, 14); cout << "L: Load";
-	GotoXY(WIDTH + 8, 16); cout << "ESC: Return";
+	GotoXY(WIDTH + 8, 2); cout << FYEL("CROSSING ROAD THE GAME!!!");
+	GotoXY(WIDTH + 16, 4); cout << FGRN("LEVEL ") << presentLevel;
+	GotoXY(WIDTH+2, 6); cout << FRED("Please Pause before load/save game");
+	//GotoXY(WIDTH + 8, 8); cout << "	";
+	GotoXY(WIDTH + 8, 10); cout << FCYN("P: Pause/Resume");
+	GotoXY(WIDTH + 8, 12); cout << FCYN("K: Save");
+	GotoXY(WIDTH + 8, 14); cout << FCYN("L: Load");
+	GotoXY(WIDTH + 8, 16); cout << FCYN("ESC: Return");
 
 	int d = lv[presentLevel - 1]->getDistance();
 	int n = lv[presentLevel - 1]->getLane();
@@ -240,10 +240,7 @@ void CGAME::Update() {
 		if (axt[i] == NULL || axt[i]->IsDone()) {
 			if (axt[i] != NULL) delete axt[i];
 			int a, b;
-			//do { 
 			a = 1 + rand() % (lv[presentLevel - 1]->getLane() - 2); b = rand() % 7 * 12;
-			//} 
-			//while (check[a][b]); check[a][b] = true;
 			if (a % 2 == 0)
 				axt[i] = new CTRUCK(ENDLANE + b, Finish + a * lv[presentLevel - 1]->getDistance() - 1);
 			else
@@ -257,10 +254,8 @@ void CGAME::Update() {
 		if (ac[i] == NULL || ac[i]->IsDone()) {
 			if (ac[i] != NULL) delete ac[i];
 			int a, b;
-			//do { 
 			a = 1 + rand() % (lv[presentLevel - 1]->getLane() - 2); b = rand() % 7 * 12;
-			//} 
-			//while (check[a][b]); check[a][b] = true;
+
 			if (a % 2 == 0)
 				ac[i] = new CBIRD(ENDLANE + b, Finish + a * lv[presentLevel - 1]->getDistance() - 1);
 			else
@@ -274,10 +269,7 @@ void CGAME::Update() {
 		if (akl[i] == NULL || akl[i]->IsDone()) {
 			if (akl[i] != NULL) delete akl[i];
 			int a, b;
-			//do { 
 			a = 1 + rand() % (lv[presentLevel - 1]->getLane() - 2); b = rand() % 7 * 12;
-			//} 
-			//while (check[a][b]); check[a][b] = true;
 			if (a % 2 == 0)
 				akl[i] = new CDINAUSOR(ENDLANE + b, Finish + a * lv[presentLevel - 1]->getDistance() - 1);
 			else
@@ -333,10 +325,10 @@ void CGAME::LoadLevel(int level) {
 void CGAME::ScoreBoard(bool IsWin) {
 	clrscr();
 	if (IsWin) {
-		GotoXY(WIDTH / 2 - 10, HEIGHT / 2);	   cout << "XXXXXX  XXXXXXX X    X  XXXXX XXXX      XX    XXXXX  XXXX";
-		GotoXY(WIDTH / 2 - 10, HEIGHT / 2 + 1); cout << "X       X     X  X X  X  X     X   X    X  X     X    XX";
-		GotoXY(WIDTH / 2 - 10, HEIGHT / 2 + 2); cout << "X       X     X  X  X X  X   X XXXXX   XXXXXX    X        X";
-		GotoXY(WIDTH / 2 - 10, HEIGHT / 2 + 3); cout << "XXXXXX  XXXXXXX  X   XX  XXXXX X    X  X     X   X    XXXXX ";
+		GotoXY(WIDTH / 2 - 10, HEIGHT / 2);		cout << FGRN("XXXXXX  XXXXXX  X    X  XXXXX  XXXX      XX    XXXXX  XXXX");
+		GotoXY(WIDTH / 2 - 10, HEIGHT / 2 + 1); cout << FGRN("X       X    X  X X  X  X      X   X    X  X     X     X  ");
+		GotoXY(WIDTH / 2 - 10, HEIGHT / 2 + 2); cout << FGRN("X       X    X  X  X X  X   X  XXXX    XXXXXX    X       X");
+		GotoXY(WIDTH / 2 - 10, HEIGHT / 2 + 3); cout << FGRN("XXXXXX  XXXXXX  X   XX  XXXXX  X   X  X      X   X    XXXX");
 	}
 	else {
 		GotoXY(WIDTH / 2, HEIGHT / 2);

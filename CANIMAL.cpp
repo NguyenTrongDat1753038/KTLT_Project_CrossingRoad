@@ -14,7 +14,7 @@ void CANIMAL::Move(int x, int y) {
 		GotoXY(mX - 1, mY + 1); cout << "___";
 	}
 	Draw(mX, mY);
-	//Sleep(10);
+	Sleep(10);
 }
 
 bool CANIMAL::IsDone() {
