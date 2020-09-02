@@ -1,0 +1,4 @@
+﻿  Main.cpp
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\Group08\Header.h(19,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\Group08\Header.h(20,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Group08.vcxproj -> G:\2017-2021\2019-2020\HKIII\KTLT\Final_Project\Group08\Debug\Group08.exe
